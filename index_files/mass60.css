@@ -1,0 +1,15 @@
+body {
+	padding-bottom: 30px;
+}
+.s1 {
+	font-weight: bold;
+}
+pre {
+	font-family: Consolas, Inconsolata, Ubuntu Monospace, Monaco, Andale Mono, Liberation Mono, monospace; font-size: 110%;
+}
+code {
+	font-family: Consolas, Inconsolata, Ubuntu Monospace, Monaco, Andale Mono, Liberation Mono, monospace; font-size: 110%;
+}
+tt {
+	font-family: Consolas, Inconsolata, Ubuntu Monospace, Monaco, Andale Mono, Liberation Mono, monospace; font-size: 110%;
+}

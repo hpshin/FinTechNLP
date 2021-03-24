@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <title>UDSL</title>
+    <meta name="author" content="Hyopil Shin">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le styles -->
+    <link href="index_files/bootstrap.css" rel="stylesheet">
+    <link href="index_files/bootstrap-responsive.css" rel="stylesheet">
+    <link href="index_files/mass60.css" rel="stylesheet">
+    <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body style="padding-top: 30px;">
+    <p><font face="Trebuchet MS"><!--
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Project name</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    --> </font></p>
+    <div class="container"> <font face="Trebuchet MS"><!-- Main hero unit for a primary marketing message or call to action -->
+      </font>
+      <div class="hero-unit">
+        <h2><font face="Trebuchet MS">BigData FinTech: Natural Language
+            Processing</font></h2>
+        <p><font face="Trebuchet MS">Hyopil Shin (Graduate School of
+            Data Science, Seoul National University)</font></p>
+        <p><a href="mailto:hpshin@snu.ac.kr"><font face="Trebuchet MS">hpshin@snu.ac.kr</font></a><font
+            face="Trebuchet MS">, </font><a
+            href="http://knlp.snu.ac.kr/"><font face="Trebuchet MS">http://knlp.snu.ac.kr</font></a><font
+            face="Trebuchet MS" size="3"><br>
+            T.A: &nbsp;이상아(visualjan@snu.ac.kr)<br>
+          </font></p>
+        <p><font face="Trebuchet MS"><img src="deep_blue_0.png"
+              width="301" height="226" border="0"><img src="ibm_0.png"
+              width="300" height="226" border="0"><img
+              src="alphago_0.png" width="294" height="226" border="0"> </font></p>
+        <p><font face="Trebuchet MS">(http://www.theverge.com/2016/3/11/11208078/lee-se-dol-go-google-kasparov-jennings-ai)</font><font
+            face="Trebuchet MS" size="3"> </font><font face="Trebuchet
+            MS"><br>
+          </font></p>
+      </div>
+      <div class="row">
+        <div class="span7">
+          <h2><font face="Trebuchet MS">Course description</font></h2>
+          <p><font face="Trebuchet MS" size="3">자연언어처리와 이해에서는 자연언어처리의 기본
+              개념과 방법론을 학습한다. 특히 텍스트 처리에 초점을 맞추어, raw text를 처리하는 다양한 방법들과
+              &nbsp;특히 최근에 많이 활용되고 있는 deep learning 기법을 이용한 언어처리와 vector
+              semantics에 기반한 방법론에 대해서도 학습한다. Python, PyTorch를 활용하여&nbsp;
+              문서분류, 언어모델링 등을 집중적으로 실습하도록 한다. <br>
+            </font></p>
+          <h2><font face="Trebuchet MS">Updates</font></h2>
+          <ul>
+            <li><font face="Trebuchet MS">&nbsp;</font></li>
+          </ul>
+          <h2><font face="Trebuchet MS">Useful Sites</font></h2>
+          <ul>
+            <li><a
+                href="https://www.deeplearningwizard.com/deep_learning/intro/"
+                style="color: rgb(0, 136, 204); text-decoration: none;
+                font-family: &quot;Helvetica Neue&quot;, Helvetica,
+                Arial, sans-serif; font-size: 13px; font-style: normal;
+                font-variant-ligatures: normal; font-variant-caps:
+                normal; font-weight: 400; letter-spacing: normal;
+                orphans: 2; text-align: start; text-indent: 0px;
+                text-transform: none; white-space: normal; widows: 2;
+                word-spacing: 0px; -webkit-text-stroke-width: 0px;
+                background-color: rgb(255, 255, 255);"><font
+                  face="Trebuchet MS" size="+1">Deep Learning Tutorials
+                  based on PyTorch</font></a></li>
+          </ul>
+          <p>
+            <meta charset="utf-8">
+          </p>
+          <ul>
+            <li><font face="Trebuchet MS" size="+1">PyTorch</font></li>
+          </ul>
+          <ul style="margin: 0px 0px 9px 25px; padding: 0px; color:
+            rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;,
+            Helvetica, Arial, sans-serif; font-size: 13px; font-style:
+            normal; font-variant-ligatures: normal; font-variant-caps:
+            normal; font-weight: 400; letter-spacing: normal; orphans:
+            2; text-align: start; text-indent: 0px; text-transform:
+            none; white-space: normal; widows: 2; word-spacing: 0px;
+            -webkit-text-stroke-width: 0px; background-color: rgb(255,
+            255, 255); text-decoration-style: initial;
+            text-decoration-color: initial;">
+            <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+              <li style="line-height: 18px;"><font face="Trebuchet MS"
+                  size="+1"><a href="https://pytorch.org/" style="color:
+                    rgb(0, 136, 204); text-decoration: none;">PyTorch</a></font></li>
+              <li style="line-height: 18px;"><font face="Trebuchet MS"
+                  size="+1"><a
+href="https://www.deeplearningwizard.com/deep_learning/course_progression/"
+                    style="color: rgb(0, 136, 204); text-decoration:
+                    none;">Practical Deep Learning With PyTorch</a></font></li>
+            </ul>
+          </ul>
+          <span style="color: rgb(51, 51, 51); font-family:
+            &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+            font-size: 13px; font-style: normal; font-variant-ligatures:
+            normal; font-variant-caps: normal; font-weight: 400;
+            letter-spacing: normal; orphans: 2; text-align: start;
+            text-indent: 0px; text-transform: none; white-space: normal;
+            widows: 2; word-spacing: 0px; -webkit-text-stroke-width:
+            0px; background-color: rgb(255, 255, 255);
+            text-decoration-style: initial; text-decoration-color:
+            initial; display: inline !important; float: none;"></span><br>
+          <ul>
+            <li><font face="Trebuchet MS" size="+1">Other Resources</font></li>
+          </ul>
+          <ul style="margin: 0px 0px 9px 25px; padding: 0px; color:
+            rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;,
+            Helvetica, Arial, sans-serif; font-size: 13px; font-style:
+            normal; font-variant-ligatures: normal; font-variant-caps:
+            normal; font-weight: 400; letter-spacing: normal; orphans:
+            2; text-align: start; text-indent: 0px; text-transform:
+            none; white-space: normal; widows: 2; word-spacing: 0px;
+            -webkit-text-stroke-width: 0px; background-color: rgb(255,
+            255, 255); text-decoration-style: initial;
+            text-decoration-color: initial;">
+            <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+              <li style="line-height: 18px;"><font face="Trebuchet MS"
+                  size="+1"><a href="https://jupyter.org/" style="color:
+                    rgb(0, 136, 204); text-decoration: none;">Jupyter
+                    notebook</a></font></li>
+              <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+                <li style="line-height: 18px;">
+                  <div><font face="Trebuchet MS"><a
+href="https://towardsdatascience.com/jupyter-notebook-for-beginners-a-tutorial-f55b57c23ada"
+                        style="color: rgb(0, 136, 204); text-decoration:
+                        none;"><font size="+1">Jupyter notebook for
+                          beginners-A tutorial</font></a></font></div>
+                </li>
+                <li style="line-height: 18px;">
+                  <div><font face="Trebuchet MS" size="+1"><a
+href="https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29"
+                        style="color: rgb(0, 136, 204); text-decoration:
+                        none;">Bring the best out of Jupyter notebooks
+                        for Data science-Enhance jupyter notebook’s
+                        productivity with these tips &amp; tricks</a></font></div>
+                </li>
+                <li style="line-height: 18px;">
+                  <div><font face="Trebuchet MS"><a
+href="https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231"
+                        style="color: rgb(0, 136, 204); text-decoration:
+                        none;"><font size="+1">Jump out of the Jupyter
+                          Notebook with nbconvert</font></a></font></div>
+                </li>
+                <li style="line-height: 18px;"><font face="Trebuchet MS"><a
+href="https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231"
+                      style="color: rgb(0, 136, 204); text-decoration:
+                      none;"><font size="+1">Jupyter Notebook Extensions</font></a></font></li>
+              </ul>
+            </ul>
+          </ul>
+          <br style="color: rgb(51, 51, 51); font-family:
+            &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+            font-size: 13px; font-style: normal; font-variant-ligatures:
+            normal; font-variant-caps: normal; font-weight: 400;
+            letter-spacing: normal; orphans: 2; text-align: start;
+            text-indent: 0px; text-transform: none; white-space: normal;
+            widows: 2; word-spacing: 0px; -webkit-text-stroke-width:
+            0px; background-color: rgb(255, 255, 255);
+            text-decoration-style: initial; text-decoration-color:
+            initial;">
+          <ul style="margin: 0px 0px 9px 25px; padding: 0px; color:
+            rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;,
+            Helvetica, Arial, sans-serif; font-size: 13px; font-style:
+            normal; font-variant-ligatures: normal; font-variant-caps:
+            normal; font-weight: 400; letter-spacing: normal; orphans:
+            2; text-align: start; text-indent: 0px; text-transform:
+            none; white-space: normal; widows: 2; word-spacing: 0px;
+            -webkit-text-stroke-width: 0px; background-color: rgb(255,
+            255, 255); text-decoration-style: initial;
+            text-decoration-color: initial;">
+            <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+              <li style="line-height: 18px;"><font face="Trebuchet MS"
+                  size="+1"><a
+                    href="https://colab.research.google.com/notebooks/welcome.ipynb"
+                    style="color: rgb(0, 136, 204); text-decoration:
+                    none;">Google Colabatory</a></font></li>
+              <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+                <li style="line-height: 18px;"><font face="Trebuchet MS"><font
+                      face="Trebuchet MS" size="+1"><a
+href="https://medium.com/dair-ai/primer-for-learning-google-colab-bb4cabca5dd6"
+                        style="color: rgb(0, 136, 204); text-decoration:
+                        none;">Primer for Learning Google CoLab</a></font></font></li>
+                <li style="line-height: 18px;"><a
+href="https://towardsdatascience.com/getting-started-with-google-colab-f2fff97f594c"
+                    style="color: rgb(0, 136, 204); text-decoration:
+                    none;"><font size="+1"><font face="Trebuchet MS">Getting
+
+
+
+
+
+
+                        Started with Google CoLab</font></font></a></li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+        <div class="span4 offset1"><font face="Trebuchet MS">&nbsp;</font>
+        </div>
+      </div>
+      <div class="row" id="syllabus">
+        <div class="span12">
+          <h2><font face="Trebuchet MS">Schedule</font></h2>
+          <table class="table table-striped" id="tblMain" width="945"
+            height="1069" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td class="s0" width="23" height="23"><font
+                    face="Trebuchet MS"><br>
+                  </font> </td>
+                <td class="s1" width="105" height="23">
+                  <p align="center"><b><font face="Trebuchet MS"
+                        size="3">Date</font></b></p>
+                </td>
+                <td class="s1" width="318" height="23">
+                  <p align="center"><b><font face="Trebuchet MS"
+                        size="3">Topics</font></b></p>
+                </td>
+                <td class="s1" width="499" height="23">
+                  <p align="center"><font size="3"><font face="Trebuchet
+                        MS"><b>Practice</b></font></font><br>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="23" height="261"><font
+                    face="Trebuchet MS" size="3">1</font></td>
+                <td class="s3" width="105" height="261"><font
+                    face="Trebuchet MS" size="3">4.2 (Fri) - 4.5(Mon)<br>
+                  </font></td>
+                <td class="s4" width="318" height="261">
+                  <meta charset="utf-8">
+                  <p style="margin: 0px; line-height: 13px; font-family:
+                    &quot;Helvetica Neue&quot;, Helvetica, Arial,
+                    sans-serif; font-size: 13px; color: rgb(51, 51, 51);
+                    font-style: normal; font-variant-ligatures: normal;
+                    font-variant-caps: normal; font-weight: 400;
+                    letter-spacing: normal; orphans: 2; text-align:
+                    left; text-indent: 0px; text-transform: none;
+                    white-space: normal; widows: 2; word-spacing: 0px;
+                    -webkit-text-stroke-width: 0px; background-color:
+                    rgb(255, 255, 255); text-decoration-style: initial;
+                    text-decoration-color: initial;"><font
+                      face="Trebuchet MS" size="+1"><a
+                        moz-do-not-send="true"
+                        href="NaturalLanguageProcessingIsFunCombined.ipynb">I<b>ntroduction
+                          to Natural Language Processing</b></a><br>
+                    </font></p>
+                  <p style="margin: 0px; line-height: 13px; font-family:
+                    &quot;Helvetica Neue&quot;, Helvetica, Arial,
+                    sans-serif; font-size: 13px; color: rgb(51, 51, 51);
+                    font-style: normal; font-variant-ligatures: normal;
+                    font-variant-caps: normal; font-weight: 400;
+                    letter-spacing: normal; orphans: 2; text-align:
+                    left; text-indent: 0px; text-transform: none;
+                    white-space: normal; widows: 2; word-spacing: 0px;
+                    -webkit-text-stroke-width: 0px; background-color:
+                    rgb(255, 255, 255); text-decoration-style: initial;
+                    text-decoration-color: initial;"><br>
+                  </p>
+                  <p><br>
+                    <font face="Trebuchet MS" size="+1"><b><a
+                          moz-do-not-send="true"
+                          href="education-learning-language-models-with-real-data.ipynb">Language
+                          Modeling</a><br>
+                      </b></font></p>
+                  <ul style="margin: 0px 0px 9px 25px; padding: 0px;
+                    color: rgb(51, 51, 51); font-family: &quot;Helvetica
+                    Neue&quot;, Helvetica, Arial, sans-serif; font-size:
+                    13px; font-style: normal; font-variant-ligatures:
+                    normal; font-variant-caps: normal; font-weight: 400;
+                    letter-spacing: normal; orphans: 2; text-align:
+                    left; text-indent: 0px; text-transform: none;
+                    white-space: normal; widows: 2; word-spacing: 0px;
+                    -webkit-text-stroke-width: 0px; background-color:
+                    rgb(255, 255, 255); text-decoration-style: initial;
+                    text-decoration-color: initial;">
+                  </ul>
+                  <ul style="margin: 0px 0px 9px 25px; padding: 0px;
+                    color: rgb(51, 51, 51); font-family: &quot;Helvetica
+                    Neue&quot;, Helvetica, Arial, sans-serif; font-size:
+                    13px; font-style: normal; font-variant-ligatures:
+                    normal; font-variant-caps: normal; font-weight: 400;
+                    letter-spacing: normal; orphans: 2; text-align:
+                    left; text-indent: 0px; text-transform: none;
+                    white-space: normal; widows: 2; word-spacing: 0px;
+                    -webkit-text-stroke-width: 0px; background-color:
+                    rgb(255, 255, 255); text-decoration-style: initial;
+                    text-decoration-color: initial;">
+                  </ul>
+                </td>
+                <td class="s4" width="499" height="261"><font
+                    face="Trebuchet MS" size="+1"><b>PyTorch<br>
+                    </b></font>
+                  <ul>
+                    <li><a href="data/PyTorch_Basics.ipynb"><font
+                          size="+1"><font face="Trebuchet MS"><b>PyTorch_Basics</b></font></font></a></li>
+                    <li><font size="+1"><font face="Trebuchet MS"><b><a
+                              href="data/PyTorchAll.ipynb">PyTorch All</a></b></font></font></li>
+                    <li><font size="+1"><font face="Trebuchet MS"><b><a
+href="data/DeepLearningForNaturalLanguageProcessingWithPytorch.ipynb">Deep
+
+
+
+                              Learning For Natural Language Processing
+                              With PyTorch</a><br>
+                          </b></font></font></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td class="s2" width="23" height="241"><font
+                    face="Trebuchet MS" size="3">2</font></td>
+                <td class="s3" width="105" height="241"><font
+                    face="Trebuchet MS" size="3">4.7(Wed)</font></td>
+                <td class="s4" width="318" height="241">
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a moz-do-not-send="true"
+                      href="EmbeddingsForNLP01.ipynb"><font
+                        face="Trebuchet MS" size="+1"><b>Vector
+                          Semantics and Word Embeddings I<br>
+                        </b></font></a></p>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><br>
+                  </p>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a moz-do-not-send="true"
+                      href="EmbeddingsForNLP02WordEmbeddingsExtended.ipynb"><font
+                        face="Trebuchet MS" size="+1"><b>Vector
+                          Semantics and Word Embeddings II<br>
+                        </b></font></a></p>
+                  <a moz-do-not-send="true"
+                    href="EmbeddingsForNLP02WordEmbeddingsExtended.ipynb">
+                  </a>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><a moz-do-not-send="true"
+                      href="EmbeddingsForNLP02WordEmbeddingsExtended.ipynb"><font
+                        face="Trebuchet MS" size="+1"><b> </b></font></a></p>
+                  <a moz-do-not-send="true"
+                    href="EmbeddingsForNLP02WordEmbeddingsExtended.ipynb">
+                  </a>
+                  <p style="line-height:100%; margin-top:0;
+                    margin-bottom:0;"><br>
+                    <font face="Trebuchet MS" size="+1"><b>
+                        <meta charset="utf-8">
+                      </b></font><font face="Trebuchet MS" size="+1"><b><br>
+                        <br>
+                        <br>
+                      </b></font></p>
+                </td>
+                <td class="s4" width="499" height="241">
+                  <meta charset="utf-8">
+                  &nbsp;</td>
+              </tr>
+              <tr>
+                <td class="s2" width="23" height="97"><font
+                    face="Trebuchet MS" size="3">3</font></td>
+                <td class="s3" width="105" height="97"><font
+                    face="Trebuchet MS" size="3">4.8(Thu)</font></td>
+                <td class="s4" width="318" height="97"><a
+                    moz-do-not-send="true"
+                    href="https://lena-voita.github.io/nlp_course/text_classification.html"><font
+                      face="Trebuchet MS" size="+1"><b>Text
+                        Classification</b></font></a><br>
+                  <meta charset="utf-8">
+                  <br>
+                </td>
+                <td class="s4" width="499" height="97"><font
+                    face="Trebuchet MS" size="+1"><b><a
+                        href="https://github.com/hanxiao/bert-as-service">
+                        <meta charset="utf-8">
+                      </a><a
+                        href="https://github.com/bentrevett/pytorch-sentiment-analysis"
+                        style="color: rgb(0, 136, 204); text-decoration:
+                        none; font-family: &quot;Trebuchet MS&quot;;
+                        font-size: large; font-style: normal;
+                        font-variant-ligatures: normal;
+                        font-variant-caps: normal; font-weight: 400;
+                        letter-spacing: normal; orphans: 2; text-align:
+                        left; text-indent: 0px; text-transform: none;
+                        white-space: normal; widows: 2; word-spacing:
+                        0px; -webkit-text-stroke-width: 0px;
+                        background-color: rgb(249, 249, 249);">Sentiment
+                        Analysis (IMDB)</a> </b></font></td>
+              </tr>
+            </tbody> <tbody>
+            </tbody> <tbody>
+              <tr>
+                <td class="s2" width="23" height="158"><font
+                    face="Trebuchet MS" size="3">4</font></td>
+                <td class="s3" width="105" height="158"><font
+                    face="Trebuchet MS" size="3">4.9(Fri)</font></td>
+                <td class="s4" width="318" height="158">
+                  <p><font face="Trebuchet MS" size="+1"><b>&nbsp;<a
+                          moz-do-not-send="true"
+href="https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html">Seq2seq
+                          And Attention</a></b></font><br>
+                  </p>
+                  <p><font face="Trebuchet MS" color="red" size="3">
+                      <meta charset="utf-8">
+                    </font></p>
+                  <br>
+                </td>
+                <td class="s4" width="499" height="158">
+                  <meta charset="utf-8">
+                  <meta charset="utf-8">
+                  <ul style="margin: 0px 0px 9px 25px; padding: 0px;
+                    color: rgb(51, 51, 51); font-family: &quot;Helvetica
+                    Neue&quot;, Helvetica, Arial, sans-serif; font-size:
+                    13px; font-style: normal; font-variant-ligatures:
+                    normal; font-variant-caps: normal; font-weight: 400;
+                    letter-spacing: normal; orphans: 2; text-align:
+                    left; text-indent: 0px; text-transform: none;
+                    white-space: normal; widows: 2; word-spacing: 0px;
+                    -webkit-text-stroke-width: 0px;
+                    text-decoration-thickness: initial;
+                    text-decoration-style: initial;
+                    text-decoration-color: initial; background-color:
+                    rgb(255, 255, 255);">
+                    <li style="line-height: 18px;"><font face="Trebuchet
+                        MS" size="+1"><font face="Trebuchet MS"
+                          size="+1"><a
+                            href="https://github.com/bentrevett/pytorch-seq2seq"
+                            style="color: rgb(0, 136, 204);
+                            text-decoration: none;">pytorch-seq2seq</a></font></font></li>
+                    <ul style="margin: 0px 0px 0px 25px; padding: 0px;">
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Sequence to
+                            Sequence Learning with Neural Networks</font></font></li>
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Learning
+                            Phrase Representations using RNN
+                            Encoder-Decoder for Statistical Machine
+                            Translation</font></font></li>
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Neural Machine
+                            Translation by Jointly Learning to Align and
+                            Translate</font></font></li>
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Packed Padded
+                            Sequences, Masking, Inference and BLEU</font></font></li>
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Convolutional
+                            Sequence to Sequence Learning</font></font></li>
+                      <li style="line-height: 18px;"><font
+                          face="Trebuchet MS" size="+1"><font
+                            face="Trebuchet MS" size="+1">Attention is
+                            All You Need</font></font></li>
+                    </ul>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>&nbsp;</p>
+          <br>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <hr></div>
+  </body>
+</html>
